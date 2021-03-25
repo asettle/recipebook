@@ -35,6 +35,13 @@ ifndef::env-github[]
 include::recipes/main/chicken-leek-pie.adoc[]
 endif::[]
 
+ifdef::env-github[]
+<<recipes/main/gnocchi-zucchini-butter.adoc#, Gnocchi with Zucchini Ribbons and Parsley Brown Butter>>
+endif::[]
+ifndef::env-github[]
+include::recipes/main/gnocchi-zucchini-butter.adoc[]
+endif::[]
+
 
 [id='sec.sides']
 == Side Dishes
